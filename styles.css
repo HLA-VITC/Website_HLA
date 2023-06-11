@@ -1,0 +1,20 @@
+/* Sections */
+.colored-section{
+    background-color: #FA9884;
+    padding: 7% 15%;
+    color: #fff;
+  }
+
+  .Light-section{
+    padding: 7% 15%;
+    background-color: #FFF3E2;
+  }
+
+/* fotter Section */
+#footer{
+    background: #000;
+    line-height: 2;
+  }
+  .footer-icon{
+    margin:20px 10px;
+  }
