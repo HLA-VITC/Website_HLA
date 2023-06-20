@@ -21,7 +21,14 @@ export default function Team() {
   ];
   const teamsCard = (teamMember) => {
     return (
-      <div>
+      <div
+        style={{
+          backgroundColor: "#FFF3E2",
+          borderRadius: 20,
+          padding: 10,
+          width: "30%",
+        }}
+      >
         <img
           style={{ borderRadius: "100%", height: 100 }}
           src={teamMember.image}
@@ -30,7 +37,18 @@ export default function Team() {
         <p style={{ fontSize: 40 }}>{teamMember.name}</p>
         <p>{teamMember.description}</p>
         <div style={{ justifyContent: "center", display: "flex" }}>
-          <p>Read More</p>
+          <p
+            style={{
+              backgroundColor: "black",
+              color: "white",
+              fontWeight: "bold",
+              padding: 10,
+              borderRadius: 10,
+              width: "30%",
+            }}
+          >
+            Read More
+          </p>
         </div>
       </div>
     );
