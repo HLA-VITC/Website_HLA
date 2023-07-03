@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 import Backimg from "./Backimg";
 import About from "./About";
 import Team from "./Team";
-import Foot from "./Foot";
+import Footer from "./Footer.js";
 
 
 export default function App() {
@@ -33,7 +33,7 @@ export default function App() {
         {events}
       </Carousel>
       </div>
-      <Foot />
+      <Footer />
     </div>
   );
 }
