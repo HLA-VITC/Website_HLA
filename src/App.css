@@ -3,9 +3,9 @@
   text-align: center;
 }
 
-.event{
+.event {
   padding-top: 1rem;
-  background: #FFF3E2;
+  background: #fff3e2;
 }
 
 h1 {
@@ -45,4 +45,8 @@ h1 {
 
 .card button:hover {
   opacity: 0.7;
+}
+
+.teamCard:hover {
+  transform: scale(1.05);
 }
