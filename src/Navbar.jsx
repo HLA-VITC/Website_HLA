@@ -5,9 +5,9 @@ function Navbar() {
   const logo_hla=logo;
   return (
     <div>
-      <nav id="navbar" class="">
-        <div class="nav-wrapper">
-          <div class="logo">
+      <nav id="navbar" className="">
+        <div className="nav-wrapper">
+          <div className="logo">
         <a href="#home">
         <img width="50px" height="auto" src={logo_hla}/></a>
           </div>
