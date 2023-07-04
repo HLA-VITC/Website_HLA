@@ -12,8 +12,10 @@ function Navbar() {
       <nav id="navbar" className="">
         <div className="nav-wrapper">
           <div className="logo">
+
         <Link to="home" spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu}>
         <img width="50px" height="auto" src={logo_hla}/></Link>
+
           </div>
 
           <ul className={click ? "menu active" : "menu"}>
