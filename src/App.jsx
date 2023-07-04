@@ -3,13 +3,14 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Event from "./Event";
 import { eventData, responsive } from "./eventData";
-import { teamData } from "./teamData";
+import { teamData, teamResponsive } from "./teamData";
 
 import Navbar from "./Navbar";
 import Backimg from "./Backimg";
 import About from "./About";
 import Team from "./Team";
 import Footer from "./Footer.js";
+import "./App.css";
 
 export default function App() {
   const events = eventData.map((item) => (
@@ -36,20 +37,33 @@ export default function App() {
       <Navbar />
       <Backimg />
       <About />
-      {/* <Team /> */}
-      <div className="event" style={{ padding: 20 }}>
-        <h1 style={{ color: "white" }}>Our Team</h1>
+
+      {/* Team Section */}
+      <div
+        className="event"
+        style={{ padding: 20, backgroundColor: "#FA9884" }}
+      >
+        <h1>Our Team</h1>
+        <Carousel
+          showDots={false}
+          responsive={teamResponsive}
+          style={{ display: "flex", gap: 50, padding: 20 }}
+        >
+          {teams}
+        </Carousel>
+      </div>
+
+      {/* Events section */}
+      <div
+        className="event"
+        style={{ paddingTop: 100, padding: 10, paddingBottom: 50 }}
+      >
+        <h1 style={{ marginBottom: 50 }}>Our Events</h1>
         <Carousel
           showDots={false}
           responsive={responsive}
           style={{ display: "flex", gap: 50, padding: 20 }}
         >
-          {teams}
-        </Carousel>
-
-        {/* Events section */}
-        <h1 style={{ color: "white", marginTop: 100 }}>Our Events</h1>
-        <Carousel showDots={false} responsive={responsive}>
           {events}
         </Carousel>
       </div>

@@ -3,15 +3,22 @@ import React from "react";
 export default function Team(props) {
   return (
     <div
+      className="teamCard"
       style={{
         backgroundColor: "#FFF3E2",
         borderRadius: 20,
         padding: 20,
-        // width: "100%",
         margin: 20,
       }}
     >
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          gap: 20,
+          paddingBottom: 20,
+        }}
+      >
         <img
           style={{ borderRadius: "100%", height: 100 }}
           src={props.image}
@@ -28,7 +35,8 @@ export default function Team(props) {
           alignContent: "center",
         }}
       >
-        <p
+        <a
+          href={props.link}
           style={{
             backgroundColor: "black",
             color: "white",
@@ -37,10 +45,11 @@ export default function Team(props) {
             borderRadius: 10,
             textAlign: "center",
             width: "30%",
+            marginTop: 20,
           }}
         >
           Read More
-        </p>
+        </a>
       </div>
     </div>
   );
