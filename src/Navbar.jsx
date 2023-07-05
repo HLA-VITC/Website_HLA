@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
-import logo from './img/logo.jpg';
+import logo from './img/bg2.png';
 function Navbar() {
   const logo_hla=logo;
   const [click, setClick] = useState(false)

@@ -53,6 +53,7 @@ a {
   height: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  /* mix-blend-mode: color; */
 }
 
 @media(max-width: 768px) {

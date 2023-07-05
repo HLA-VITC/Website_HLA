@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import './Footer.css';
+import logo from './img/bg2.png';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="footer__content">
 
         <div className="footer__logo">
-          <img src="/path/to/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
 
         <div className="footer__info">

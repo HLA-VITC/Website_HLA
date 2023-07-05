@@ -10,7 +10,7 @@ export default function Event(props) {
       <p className="date">{props.date}</p>
       <p>{props.description}</p>
       <p>
-        <button>Know More</button>
+        <button> <a href='https://www.instagram.com/hla_vitc/?hl=en'>Know More</a> </button>
       </p>
     </div>
   );

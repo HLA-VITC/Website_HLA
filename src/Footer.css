@@ -14,12 +14,14 @@
   }
   
   .footer__logo {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   .footer__logo img {
-    width: 100px;
+    width: 80px;
+    object-fit: contain;
     height: auto;
+
   }
   
   .footer__info,
