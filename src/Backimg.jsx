@@ -34,7 +34,7 @@ function Backimg() {
   };
 
   return (
-    <div style={divStyle}>
+    <div style={divStyle} id='home'>
       <div style={textStyle}>
         <h1>Hindi Literary</h1>
         <h1>Association</h1>

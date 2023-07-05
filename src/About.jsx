@@ -49,7 +49,7 @@ const About = () => {
   };
 
   return (
-    <section className="about-section" style={sectionStyle}>
+    <section className="about-section" style={sectionStyle} id='about'>
       <div className="container" style={containerStyle}>
         <div style={headingContainerStyle}>
           <img src={imgaboutus} alt="Image" style={imageStyle} />

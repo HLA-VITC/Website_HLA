@@ -3,6 +3,7 @@ import React from "react";
 export default function Team(props) {
   return (
     <div
+      id='team'
       className="teamCard"
       style={{
         backgroundColor: "#FFF3E2",

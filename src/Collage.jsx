@@ -2,7 +2,7 @@ import React from "react";
 
 function Collage() {
   return (
-    <section className="colored-section">
+    <section className="colored-section" id='instagram'>
       <ul>
         <li>
           <a href="#About us">About us</a>
