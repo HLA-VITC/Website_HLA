@@ -10,11 +10,11 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   
   .footer__logo {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
   
   .footer__logo img {
@@ -46,7 +46,7 @@
     padding: 5px 12px 35px 15px;
     position: absolute;
     left: 10;
-    bottom: 33%; 
+    bottom: 30%; 
     transform: translateY(50%);
   }
 
@@ -54,7 +54,7 @@
     padding: 5px 12px 15px 15px;
     position: absolute;
     left: 25%;
-    bottom: 45%; 
+    bottom: 40%; 
     transform: translateY(50%);
   }
   

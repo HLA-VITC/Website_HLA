@@ -43,7 +43,7 @@ export default function App() {
         className="event"
         style={{ padding: 20, backgroundColor: "#FA9884" }}
       >
-        <h1>Our Team</h1>
+        <h2 className="Team_Title">Our Team</h2>
         <Carousel
           showDots={false}
           responsive={teamResponsive}
